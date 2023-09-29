@@ -6,7 +6,7 @@ import json
 
 feedback_dict_keys = ["title", "name", "date", "feedback"]
 feedback_dict = []
-feedback_folder_path = "/uSERS/EVEMWANGI/PYTHON_ANDTHE_OS/CAPSTONE/feedback"
+feedback_folder_path = "/~/feedback"
 host_url = "http://ipaddress/feedback/"
 file_src_dir = "/data/feedback/"
 
