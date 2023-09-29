@@ -20,11 +20,12 @@ print(response.status_code) #returns 200, the response code, to show you got the
 
 #raise exceptions if the status code isn't what you expected
 #response_bad = requests.get("https://www.mathogsz.com")
-#if not response_bad.ok:
-    #raise Exception("GET failed with status code {}".format(response_bad.status_code))
+"""
+if not response_bad.ok:
+    raise Exception("GET failed with status code {}".format(response_bad.status_code))
     #or
-    #print(response_bad.raise_for_status()) #will raise an HTTPError exception only if the response wasn’t successful.
-
+    print(response_bad.raise_for_status()) #will raise an HTTPError exception only if the response wasn’t successful.
+"""
 # example of a GET request
 # https://example.com/path/to/api/cat_pictures?search=grey+kitten&max_results=15
 # has parameters, seperated by the ?
